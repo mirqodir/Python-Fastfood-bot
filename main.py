@@ -24,12 +24,6 @@ async def til_tanlash(message:types.Message):
     await message.answer("Tumaningizni tanlang:",reply_markup=shaxarlar )
 
 
-
-
-
-
-    
-
 #shaxar tnlaganda usha shaxarga kradi
 @dp.message_handler(text="Mirzo-Ulug'bek🤴")
 async def til_tanlash(message:types.Message):
@@ -127,10 +121,6 @@ async def til_tanlash(message:types.Message):
 
 
 
-
-
-
-
 ###############################################################################################################lambaw
 
 #lavash knopkasini chqazadi
@@ -156,8 +146,6 @@ async def til_tanlash(call:CallbackQuery):
         caption="""Narxi:   18 000 so'm
 Tarkibi: Xamir, tovuq go`sht, chips, pomidor, bodring, sous, mayonez
 Miqdorini tanlang yoki kiriting""",reply_markup=kk_nopka)
-
-   
 
 
 @dp.callback_query_handler(text="sirli")
@@ -421,14 +409,12 @@ async def til_tanlash(call:CallbackQuery):
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer("quyidagilardan birini tanlang",reply_markup=clap_menu )
 
-
-
-
-
+    
 #######################################################################################icimliklar_
 @dp.callback_query_handler(text="ichimlik")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer("quyidagilardan birini tanlang",reply_markup=suv_menu )
+    
 ########################################################################################cola menu
 @dp.callback_query_handler(text="cola")
 async def til_tanlash(call:CallbackQuery):
@@ -461,6 +447,7 @@ async def til_tanlash(call:CallbackQuery):
 Tarkibi: Gazli ichimlik
 Miqdorini tanlang yoki kiriting""",reply_markup=gaz_nopka)
 
+    
 @dp.callback_query_handler(text="pepsi")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer_photo(
@@ -490,6 +477,7 @@ async def til_tanlash(call:CallbackQuery):
 Tarkibi: O'rik Sharbati
 Miqdorini tanlang yoki kiriting""",reply_markup=suv_nopka)
 
+    
 @dp.callback_query_handler(text="ano")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer_photo(
@@ -498,6 +486,7 @@ async def til_tanlash(call:CallbackQuery):
 Tarkibi: Anor Sharbati
 Miqdorini tanlang yoki kiriting""",reply_markup=suv_nopka)
 
+    
 @dp.callback_query_handler(text="ol")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer_photo(
@@ -507,6 +496,7 @@ Tarkibi: Olcha Sharbati
 Miqdorini tanlang yoki kiriting""",reply_markup=suv_nopka)
 
 
+    
 @dp.callback_query_handler(text="qul")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer_photo(
@@ -515,6 +505,7 @@ async def til_tanlash(call:CallbackQuery):
 Tarkibi: Qulupnay Sharbati
 Miqdorini tanlang yoki kiriting""",reply_markup=suv_nopka)
 
+    
 @dp.callback_query_handler(text="ban")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer_photo(
@@ -528,7 +519,7 @@ Miqdorini tanlang yoki kiriting""",reply_markup=suv_nopka)
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer("Kofe",reply_markup=kf_menu )
 
-
+    
 @dp.callback_query_handler(text="qor")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer_photo(
@@ -578,10 +569,6 @@ async def til_tanlash(call:CallbackQuery):
     await call.message.answer("quyidagilardan birini tanlang",reply_markup=kf_menu )
 
 
-
-
-
-
 ##############################################################################################wirinliklar
 @dp.callback_query_handler(text="shirin")
 async def til_tanlash(call:CallbackQuery):
@@ -616,7 +603,9 @@ Miqdorini tanlang yoki kiriting""",reply_markup=pp_nopka)
 @dp.callback_query_handler(text="orqaga")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer("quyidagilardan birini tanlang",reply_markup=menu )
+    
 ###############################################################################################################shrn_menu back
+
 @dp.callback_query_handler(text="back22")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer("quyidagilardan birini tanlang",reply_markup=menu )
@@ -624,9 +613,6 @@ async def til_tanlash(call:CallbackQuery):
 @dp.callback_query_handler(text="back23")
 async def til_tanlash(call:CallbackQuery):
     await call.message.answer("quyidagilardan birini tanlang",reply_markup=shrn_menu )
-
-
-
 
 
 ###########################################################################################################boshqa____
